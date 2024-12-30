@@ -12,20 +12,25 @@
 @layer components {
   .transform-perspective-500-rotateX-180 {
     transform: perspective(500px) rotateX(180deg);
+    -webkit-transform: perspective(500px) rotateX(180deg);
   }
   .transform-perspective-500-rotateX-360 {
     transform: perspective(500px) rotateX(360deg);
+    -webkit-transform: perspective(500px) rotateX(360deg);
   }
 }
 
 @layer utilities {
   .transform-style-3d {
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
   }
   .backface-hidden {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
   .backface-visible {
     backface-visibility: visible;
+    -webkit-backface-visibility: visible;
   }
 }
