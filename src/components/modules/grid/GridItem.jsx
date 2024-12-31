@@ -5,7 +5,7 @@ const GridItem = ({ index, image: { id, src } }) => {
 
   return (
     <div
-      className="w-20 h-20 text-xl transform-style-3d relative backface-hidden"
+      className="w-16 h-16 md:w-20 md:h-20 text-xl transform-style-3d relative backface-hidden"
       onClick={clickHandler}
     >
       <div

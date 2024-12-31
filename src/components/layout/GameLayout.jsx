@@ -11,7 +11,7 @@ const GameLayout = () => {
   } = useContext(GameContext);
   return (
     <div className="h-screen w-screen flex  items-center justify-center">
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 mx-4">
         <div className="flex items-center justify-between gap-8 w-full">
           <MoveCount />
           <Timer />

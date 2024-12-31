@@ -16,7 +16,7 @@ const Modal = ({ children }) => {
     >
       <div
         onClick={handleStopPropagation}
-        className="w-full max-w-sm bg-white rounded-md p-4"
+        className="w-full max-w-sm bg-white rounded-md p-4 mx-4"
       >
         <ModalContext.Provider value={{ setIsOpen }}>
           {children}
